@@ -1,0 +1,100 @@
+{
+  "lecs_data": [
+    {
+      "day": 1,
+      "lesson_type": "lec",
+      "name": "Econometrics",
+      "start": 10,
+      "duration": 2,
+      "location": "bergels-012"
+    },
+    {
+      "day": 1,
+      "lesson_type": "lec",
+      "name": "Micro-2",
+      "start": 16,
+      "duration": 3,
+      "location": "bergels-010"
+    },
+    {
+      "day": 2,
+      "lesson_type": "rec",
+      "name": "Econometrics",
+      "start": 10,
+      "duration": 2,
+      "location": "bergels-001"
+    },
+    {
+      "day": 2,
+      "lesson_type": "rec",
+      "name": "Macro",
+      "start": 12,
+      "duration": 2,
+      "location": "bergels-011"
+    },
+    {
+      "day": 2,
+      "lesson_type": "lec",
+      "name": "Linear Algebra",
+      "start": 14,
+      "duration": 2,
+      "location": "citot-handasa-103"
+    },
+    {
+      "day": 4,
+      "lesson_type": "rec",
+      "name": "Micro-2",
+      "start": 8,
+      "duration": 2,
+      "location": "bergels-001"
+    },
+    {
+      "day": 4,
+      "lesson_type": "lec",
+      "name": "Econometrics",
+      "start": 10,
+      "duration": 2,
+      "location": "bergels-012"
+    },
+    {
+      "day": 4,
+      "lesson_type": "lec",
+      "name": "Linear Algebra",
+      "start": 14,
+      "duration": 2,
+      "location": "citot-handasa-103"
+    },
+    {
+      "day": 4,
+      "lesson_type": "rec",
+      "name": "Discrete Math",
+      "start": 16,
+      "duration": 1,
+      "location": "citot-handasa-206"
+    },
+    {
+      "day": 5,
+      "lesson_type": "lec",
+      "name": "Macro",
+      "start": 9,
+      "duration": 3,
+      "location": "bergels-012"
+    },
+    {
+      "day": 5,
+      "lesson_type": "rec",
+      "name": "Linear Algebra",
+      "start": 12,
+      "duration": 1,
+      "location": "citot-handasa-205"
+    },
+    {
+      "day": 5,
+      "lesson_type": "lec",
+      "name": "Discrete Math",
+      "start": 14,
+      "duration": 2,
+      "location": "citot-handasa-102"
+    }
+  ]
+}
