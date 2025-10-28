@@ -25,11 +25,19 @@ translate_map = {
 
 def reverse (w):
     return w[::-1]
+
 def translate(w):
     if not isinstance(w, str):
         return w
     parts = w.split("-")
-    translated = [reverse(translate_map.get(p, p)) for p in parts]
+    translated = []
+    for p in parts:
+        value = translate_map.get(p, p)
+        # Only reverse if it’s Hebrew text (not numbers or mixed)
+        if value.isdigit():
+            translated.append(value)
+        else:
+            translated.append(reverse(value))
     return " ".join(translated)
 
 
